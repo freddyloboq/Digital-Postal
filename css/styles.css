@@ -1,0 +1,83 @@
+body {
+    background-color: #000;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+}
+
+.container {
+    width: 700px;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    overflow: hidden;
+    margin: 0 auto 30px;
+}
+
+.title {
+    float: left;
+    width: 50%;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.logo img {
+    max-width: 70px;
+    float: right;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.part-one {
+    float: left;
+    width: 45%;
+}
+
+.part-two {
+    float: right;
+    width: 45%;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+    border: none;
+    border-bottom: 1px solid#000000;
+}
+
+.footer {
+    padding: 30px;
+    text-align: center;
+}
+
+.footer .button {
+    border: none;
+    border-bottom: 14px #000000;
+    background-color: gray;
+    height: 50px;
+    width: 200px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.footer .button:hover {
+    color: white;
+    background-color: rgb(75, 75, 75);
+    transition: 0.7s ease all;
+
+}
